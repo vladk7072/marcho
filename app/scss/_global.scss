@@ -8,7 +8,7 @@ body{
   color: $default;
   @extend %quicksand-500;
   display: flex;
-  font-display: column;
+  flex-direction: column;
 }
 .main{
   flex-grow: 1;
